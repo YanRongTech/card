@@ -1,0 +1,31 @@
+
+@card-title-color: #a0a0a0;
+@card-em-color: #555;
+@card-sub-color: #b1b1b1;
+
+.basic-card {
+  position: relative;
+  .card-title {
+    color: @card-title-color;
+    font-size: 12px;
+  }
+  height: 140px;
+
+  &.no-padding {
+    .card-title {
+      padding: 20px 20px 10px 20px;
+    }
+  }
+
+  .main-area {
+    display: block;
+    line-height: 100%;
+    color: @card-em-color;
+  }
+
+  .sub-area {
+    display: block;
+    line-height: 100%;
+    color: @card-sub-color;
+  }
+}
