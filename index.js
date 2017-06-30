@@ -1,2 +1,4 @@
-export BasicCard from './BasicCard';
-export MetaCard from './MetaCard';
+import BasicCard from './BasicCard';
+import MetaCard from './MetaCard';
+
+module.exports = {BasicCard, MetaCard};
